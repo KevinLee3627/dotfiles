@@ -1,0 +1,10 @@
+syntax on
+set showmatch
+set ruler
+set rnu
+set nu
+set smarttab
+set shiftwidth=2
+set tabstop=2
+set expandtab
+color slate
