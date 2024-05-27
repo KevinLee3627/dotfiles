@@ -3,7 +3,7 @@
 
 [alias]
   # Longer history log w/ branches
-  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abrev-commit
+  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
   # Go to branch, create if necessary
   ch = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
